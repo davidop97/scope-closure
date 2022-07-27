@@ -6,10 +6,10 @@
 
 // var Rocket; Se eleveo y se le asigna y le da un valor de UNDEFINED
 // La funcion es elevada y luego se ejecuta
-nameOfDog();
+nameOfDog('Rocket');
 
-function nameOfDog() {
-    console.log(`El mejor perrito es ${Rocket}`)
+function nameOfDog(name) {
+    console.log(name)
 }
 
 var Rocket = 'Rocketcito'
